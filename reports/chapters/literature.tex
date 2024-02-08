@@ -1,25 +1,85 @@
 \chapter{Literature Review}
 \label{ch:lit_rev} %Label of the chapter lit rev. The key ``ch:lit_rev'' can be used with command \ref{ch:lit_rev} to refer this Chapter.
 
-The realm of social media, encompassing forums, social networking, microblogging, social bookmarking, and wikis \citep{esrc}\citep{gil2019}, significantly influences the dynamics of information dissemination. However, the unintentional factors contributing to the rise of fake news, as evidenced by incidents like the Nepal Earthquake case \citep{tandoc2017}\citep{radianti2016}, underline the intricacies of navigating the digital information landscape. In 2020, the global health sector encountered a substantial surge in fake news, prompting the World Health Organization (WHO) to declare an 'infodemic' during the COVID-19 outbreak. This infodemic involved a flood of both authentic and false information, including a noteworthy volume of misinformation.
+The realm of social media, encompassing forums, social networking, microblogging, social 
+bookmarking, and wikis \citep{esrc,gil2019}, significantly influences the dynamics of 
+information dissemination. However, the unintentional factors contributing to the rise of fake 
+news, as evidenced by incidents like the Nepal Earthquake case 
+\citep{tandoc2017,radianti2016}, underline the intricacies of navigating the digital 
+information landscape. In 2020, the global health sector encountered a substantial surge in 
+fake news, prompting the World Health Organization (WHO) to declare an 'infodemic' during the 
+COVID-19 outbreak. This infodemic involved a flood of both authentic and false information, 
+including a noteworthy volume of misinformation.
 
-In response to the challenges of identifying and combatting fake news, several research initiatives have proposed innovative solutions. \cite{sahoo2021multiple} introduced an automatic fake news identification technique tailored for the Chrome environment, providing a means to detect fake news on Facebook. This approach leverages various features associated with a Facebook account, coupled with news content features, utilizing deep learning to analyze account characteristics.
+In response to the challenges of identifying and combating fake news, several research 
+initiatives have proposed innovative solutions. \cite{sahoo2021multiple} introduced an 
+automatic fake news identification technique tailored for the Chrome environment, providing a 
+means to detect fake news on Facebook. This approach leverages various features associated with 
+a Facebook account, coupled with news content features, utilizing deep learning to analyze 
+account characteristics.
 
-FakeNewsNet, presented by \cite{shu2020fakenewsnet}, serves as a valuable repository of fake news data. This resource provides datasets with diverse features, spatiotemporal information, and social context, facilitating research in the domain of fake news. Evaluation indicates that user engagements can contribute to fake news detection in addition to news articles, highlighting the multifaceted nature of information dissemination.
+FakeNewsNet, presented by \cite{shu2020fakenewsnet}, serves as a valuable repository of fake 
+news data. This resource provides datasets with diverse features, spatiotemporal information, 
+and social context, facilitating research in the domain of fake news. Evaluation indicates that 
+user engagements can contribute to fake news detection in addition to news articles, 
+highlighting the multifaceted nature of information dissemination.
 
-\cite{Kumar} proposed a CNN and bidirectional LSTM ensembled network for identifying original and false news instances. Utilizing various advanced approaches, such as Long Short Term Memories LSTMs, Convolutional Neural Networks CNNs, attention mechanisms, and ensemble methods, the study collected news instances from sources like PolitiFact. The CNN and bidirectional LSTM ensembled network, incorporating an attention mechanism, demonstrated superior accuracy, emphasizing the significance of model complexity in addressing the fake news identification challenge.
+\cite{Kumar} proposed a CNN and bidirectional LSTM ensembled network for identifying original 
+and false news instances. Utilizing various advanced approaches, such as Long Short Term 
+Memories LSTMs, Convolutional Neural Networks CNNs, attention mechanisms, and ensemble methods, 
+the study collected news instances from sources like PolitiFact. The CNN and bidirectional LSTM 
+ensembled network, incorporating an attention mechanism, demonstrated superior accuracy, 
+emphasizing the significance of model complexity in addressing the fake news identification 
+challenge.
 
-Natural Language Processing (NLP) emerges as a pivotal tool in tackling fake news. \cite{choudhary2021linguistic} proposed a linguistic model, employing handcrafted linguistic features for fake news detection. The model, driven by language-specific features, demonstrated a remarkable 86\% accuracy in detecting and categorizing fake messages. Additionally, \cite{abdullah2020fake} adopted a multimodal approach, combining Convolutional Neural Network (CNN) and Long Short-Term Memory (LSTM), achieving significant performance in classifying fake news articles based on source, history, and linguistic cues.
+Natural Language Processing (NLP) emerges as a pivotal tool in tackling fake news. 
+\cite{choudhary2021linguistic} proposed a linguistic model, employing handcrafted linguistic 
+features for fake news detection. The model, driven by language-specific features, demonstrated 
+a remarkable 86\% accuracy in detecting and categorizing fake messages. Additionally, 
+\cite{abdullah2020fake} adopted a multimodal approach, combining Convolutional Neural Network 
+(CNN) and Long Short-Term Memory (LSTM), achieving significant performance in classifying fake 
+news articles based on source, history, and linguistic cues.
 
-Furthermore, \cite{aslam2021fake} introduced an ensemble-based deep learning model for classifying news as fake or real using the LIAR dataset. Employing a combination of Bi-LSTM-GRU-dense and dense deep learning models, the study achieved notable accuracy, recall, precision, and F-score. Despite these advancements, ongoing research aims to enhance the robustness of these models, emphasizing the need for continual improvement and exploration of diverse datasets in fake news detection.
+Furthermore, \cite{aslam2021fake} introduced an ensemble-based deep learning model for 
+classifying news as fake or real using the LIAR dataset. Employing a combination of Bi-LSTM-GRU-
+dense and dense deep learning models, the study achieved notable accuracy, recall, precision, 
+and F-score. Despite these advancements, ongoing research aims to enhance the robustness of 
+these models, emphasizing the need for continual improvement and exploration of diverse 
+datasets in fake news detection.
 
 
 
 % A possible section of you chapter
 \section{Evaluation of Existing Scholarship on Fake News Detection } % Use this section title or choose a betterone
-The comprehensive examination of the literature reveals a multifaceted landscape in the realm of fake news identification. Researchers employ diverse strategies, ranging from linguistic models to multimodal approaches, emphasizing the need for a holistic understanding that incorporates both content and social context. Key findings underscore the significance of model complexity, with advanced architectures like the CNN bidirectional LSTM ensembled network exhibiting notable success. Natural Language Processing (NLP) emerges as a critical tool in deciphering news content, demonstrated by linguistic models and the utilization of NLP techniques for textual attribute analysis. Despite considerable progress, there remains a persistent call for improvement, urging researchers to explore feature richness, latent semantic features, and diverse datasets. The global impact of infodemics, particularly highlighted during the COVID-19 outbreak, underscores the urgency in developing robust fake news detection systems. In essence, the literature review illuminates the dynamic and evolving nature of fake news research, emphasizing innovation and adaptability in response to the challenges presented in the digital information age.
+The comprehensive examination of the literature reveals a multifaceted landscape in the realm 
+of fake news identification. Researchers employ diverse strategies, ranging from linguistic 
+models to multimodal approaches, emphasizing the need for a holistic understanding that 
+incorporates both content and social context. Key findings underscore the significance of model 
+complexity, with advanced architectures like the CNN bidirectional LSTM ensembled network 
+exhibiting notable success. Natural Language Processing (NLP) emerges as a critical tool in 
+deciphering news content, demonstrated by linguistic models and the utilization of NLP 
+techniques for textual attribute analysis. Despite considerable progress, there remains a 
+persistent call for improvement, urging researchers to explore feature richness, latent 
+semantic features, and diverse datasets. The global impact of infodemics, particularly 
+highlighted during the COVID-19 outbreak, underscores the urgency in developing robust fake 
+news detection systems. In essence, the literature review illuminates the dynamic and evolving 
+nature of fake news research, emphasizing innovation and adaptability in response to the 
+challenges presented in the digital information age.
 \\
 
 % Pleae use this section
 \section{Summary} 
-In summary, this literature review provides a comprehensive exploration of the current state of research in the field of fake news detection. The chapter commences by delineating the landscape of social media and its role in the dissemination of misinformation. It delves into the inadvertent factors contributing to the emergence of fake news, exemplifying instances such as the Nepal Earthquake case. The review accentuates the gravity of the 'infodemic,' particularly evident during the COVID-19 outbreak, necessitating advanced detection mechanisms. Several notable research endeavors are scrutinized, including Sahoo et al.'s automatic fake news identification technique, Shu et al.'s FakeNewsNet repository, and Kumar et al.'s CNN+bidirectional LSTM ensembled network. The significance of Natural Language Processing (NLP) in understanding and detecting fake news is highlighted through studies like Choudhari et al.'s linguistic model. The literature underscores the need for continuous innovation, feature exploration, and adaptation to address the evolving challenges posed by the rampant spread of fake news. This synthesis of existing knowledge provides a robust foundation for the ensuing research endeavors aimed at enhancing the efficacy of fake news detection systems.~\\
+In summary, this literature review provides a comprehensive exploration of the current state of 
+research in the field of fake news detection. The chapter commences by delineating the 
+landscape of social media and its role in the dissemination of misinformation. It delves into 
+the inadvertent factors contributing to the emergence of fake news, exemplifying instances such 
+as the Nepal Earthquake case. The review accentuates the gravity of the 'infodemic,' 
+particularly evident during the COVID-19 outbreak, necessitating advanced detection mechanisms. 
+Several notable research endeavors are scrutinized, including \cite{sahoo2021multiple} automatic fake 
+news identification technique, \cite{shu2020fakenewsnet} repository, and \cite{Kumar}
+CNN+bidirectional LSTM ensembled network. The significance of Natural Language Processing (NLP) 
+in understanding and detecting fake news is highlighted through studies like \cite{choudhary2021linguistic} 
+linguistic model. The literature underscores the need for continuous innovation, feature 
+exploration, and adaptation to address the evolving challenges posed by the rampant spread of 
+fake news. This synthesis of existing knowledge provides a robust foundation for the ensuing 
+research endeavors aimed at enhancing the efficacy of fake news detection systems.~\\
